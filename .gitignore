@@ -1,0 +1,29 @@
+# Python 产生的缓存文件 (必须忽略)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境 (不要上传几万个库文件)
+venv/
+env/
+.env
+
+# 数据文件 (建议忽略原始大 CSV 文件)
+# 如果你的数据集超过 50MB，GitHub 会报错或变得极慢
+data/*.csv
+data/*.xlsx
+*.zip
+*.gz
+
+# IDE 配置文件 (个人偏好，没必要上传)
+.vscode/
+.idea/
+
+# 模型文件 (可选)
+# 如果模型文件非常大(>100MB)，建议用 LFS 或者只留推理脚本
+# 但对于你的 .pkl 文件，通常比较小，可以上传作为 Demo
+# *.pkl
+
+# 日志和临时文件
+*.log
+.DS_Store
